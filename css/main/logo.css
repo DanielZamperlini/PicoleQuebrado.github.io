@@ -44,10 +44,19 @@
   margin-left: 10px;
 }
 .texto-1,.texto-2 {
-  
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .textos-1-2 {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    gap: 20px;
+  }
+  .texto-2 h2 {
+    color: #eee;
+  }
 }
