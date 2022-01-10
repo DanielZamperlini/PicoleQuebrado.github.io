@@ -1,0 +1,47 @@
+.bg-footer {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding-bottom: 60px;
+}
+.social li a,
+.redes-sociais h3 {
+  color: #f2f2f2;
+}
+.contatos h3,
+.contatos a {
+  color: #f2f2f2;
+}
+.contatos h3,
+.redes-sociais h3 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  padding: 5px 120px 0px 0px;
+}
+.contato-items,
+.social li {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 1.5em;
+}
+.footer-copy {
+  background: #000;
+  color: #f2f2f2;
+  padding: 60px;
+}
+.footer-copy p{
+  color: #f2f2f2;
+}
+.contato-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 20px;
+}
+.contato-item img {
+  max-width: 30px;
+}
+.phone a {
+  padding: 5px 10px;
+}
