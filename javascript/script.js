@@ -11,3 +11,6 @@ const slideRolamento = new SlideNavRolamento('.slide-rolamento', '.slide-wrapper
 slideRolamento.init();
 slideRolamento.addArrow('.prev-rolamento', '.next-rolamento');
 slideRolamento.addControl('.custom-controls-rolamento');
+
+import initModal from "./modal.js";
+initModal();
