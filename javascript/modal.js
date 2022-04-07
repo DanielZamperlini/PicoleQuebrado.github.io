@@ -1,9 +1,7 @@
 export default function initModal() {
   const botaoAbrir = document.querySelector('[data-modal="abrir"]');
   const botaoFechar = document.querySelector('[data-modal="fechar"]');
-  const containerModal = document.querySelector('[data-modal="container"]');
-  const adicionarModal = document.querySelector('.slide-shapes li')
-  console.log(adicionarModal)
+  const containerModal = document.querySelector('[data-modal="container"]'); 
   
   if(botaoAbrir && botaoFechar && containerModal) {
     
@@ -16,14 +14,10 @@ export default function initModal() {
         toggleModal(event);
       }
     }
-    function addModal(event) {
-      event.preventDefault();
-      adicionarModal.classList.toggle('oi')
-    }
   
-    botaoAbrir.addEventListener('click', toggleModal , addModal);
+    botaoAbrir.addEventListener('click', toggleModal);
     botaoFechar.addEventListener('click', toggleModal);
     containerModal.addEventListener('click', cliqueForaModal);
-  }
+  } 
 }
 
