@@ -15,3 +15,11 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
+.bg-header {
+  background: rgb(170, 170, 170);
+  background-repeat: no-repeat;
+}
+.bg-header-2 {
+  background-image: #fff;
+  background-repeat: no-repeat;
+}

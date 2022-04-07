@@ -3,14 +3,7 @@
 @import url(./main/logo.css);
 @import url(./shapes/shapes.css);
 @import url(./footer/footer.css);
-@import url(.);
-@import url(.);
-.bg-header {
-  background-image: url(../imgs/backgrounds/skate-tumblr-hd.jpg);
-  background-repeat: no-repeat;
-}
-.bg-header-2 {
-  background-image: url(../imgs/backgrounds/IMG_1796-scaled.jpg);
-  background-repeat: no-repeat;
-}
+@import url(./Rolamento.css);
+@import url(./Shape.css);
+
 

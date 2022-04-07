@@ -1,16 +1,13 @@
-const galeria = document.querySelectorAll(".shapes img");
-const galeriaContainer = document.querySelector(".shapes");
+import SlideNavShapes from './slideShapes.js';
 
-function trocarImagem(event) {
-  const img = event.currentTarget;
-  const media = matchMedia("(min-width: 1000px)").matches;
-  if (media) {
-    galeriaContainer.prepend(img);
-  }
-}
+const slideShapes = new SlideNavShapes('.slide-shapes', '.slide-wrapper-shapes');
+slideShapes.init();
+slideShapes.addArrow('.prev-shapes', '.next-shapes');
+slideShapes.addControl('.custom-controls-shapes');
 
-function eventosGaleria(img) {
-  img.addEventListener("click", trocarImagem);
-}
+import SlideNavRolamento from './slideRolamento.js';
 
-galeria.forEach(eventosGaleria);
+const slideRolamento = new SlideNavRolamento('.slide-rolamento', '.slide-wrapper-rolamento');
+slideRolamento.init();
+slideRolamento.addArrow('.prev-rolamento', '.next-rolamento');
+slideRolamento.addControl('.custom-controls-rolamento');

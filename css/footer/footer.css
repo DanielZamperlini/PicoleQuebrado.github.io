@@ -37,7 +37,8 @@
 }
 .contato-item {
   display: flex;
-  align-items: center;
+  justify-items: center;
+  height: 30px;
   gap: 5px;
   margin: 20px;
 }
@@ -55,15 +56,6 @@
   margin-top: 60px;
   padding: 3px 80px 0px 0px;
   }
-  .contato-items,
-  .social li {
-  margin: 0px;
-  padding: 3px 5px;
-  font-size: 1em;
-  }
-  .contato-item img {
-    max-width: 20px;
-  }
 }
 @media (max-width: 600px) {
   .contatos h3,
@@ -73,13 +65,15 @@
   margin-top: 60px;
   padding: 2px 80px 0px 0px;
   }
-  .contato-items,
   .social li {
   margin: 0px;
   padding: 2px 5px;
   font-size: 0.7em;
   }
-  .contato-item img {
-    max-width: 10px;
-  }
+}
+.contato-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
